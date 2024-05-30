@@ -1,6 +1,6 @@
 # Text Clip
 
-**Text Clip** is a simple yet powerful Python-based tool designed to streamline the process of capturing and extracting text from screenshots. Developed with ease of use in mind, Text Clip allows users to quickly take a screenshot, extract the text content, and copy it directly to their clipboard for immediate use.
+**Text Clip** is a simple yet powerful Python-based tool designed to streamline the process of capturing and extracting text from screenshots. Developed with ease of use in mind, Text Clip allows users to quickly take a screenshot, extract the text content, and copy it directly to their clipboard for immediate use. This tool is designed for macOS and has been tested on macOS 14.4.1 (23E224).
 
 ## Features
 
@@ -20,7 +20,8 @@
 
 ## Requirements
 
-- Python 3.11
+- macOS (tested on macOS 14.4.1 (23E224))
+- Python 3.x
 - Required Python libraries:
   - Quartz
   - AppKit
@@ -32,5 +33,5 @@
 
 Make sure you have the necessary libraries installed. You can install them using pip:
 
-
+```sh
 pip install pyobjc pyobjc-framework-Quartz pyperclip pytesseract pillow
